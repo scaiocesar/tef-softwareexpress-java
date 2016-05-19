@@ -24,7 +24,32 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.2.1</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>usb4java-natives</groupId>
+			<artifactId>usb4java-natives</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>usb4java</groupId>
+			<artifactId>usb4java</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>usb-api</groupId>
+			<artifactId>usb-api</artifactId>
+			<version>1.0.2</version>
+		</dependency>
+		
 	</dependencies>
 
-	
+	<repositories>
+		<repository>
+			<id>alo-release</id>
+			<name>Alo Repository</name>
+			<url>http://homologacao.aloingressos.com.br:8081/nexus/content/repositories/dc3/</url>
+			<layout>default</layout>
+		</repository>
+	</repositories>
+
 </project>
